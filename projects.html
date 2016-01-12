@@ -21,13 +21,15 @@
 
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:500,300italic' rel='stylesheet' type='text/css'>
-    <link href="custom.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 
   </head>
 
@@ -36,27 +38,147 @@
     <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
-        <h1><a href="index.html">home</a> / projects,</h1>
-
-        <!--<img class="pic"
-            src="https://pbs.twimg.com/profile_images/526456596117721089/SUvuMTaT_400x400.jpeg"
-            alt="Bobi Rakova">-->
+        <h1><a class="gray" href="index.html">home</a> <span class="gray">/</span> proects <span class="gray">/</span> <a class="gray" href="http://bobirakova.tumblr.com/home">blog</a></h1>
 
       </div>
 
+      <!-- HUTGRIP MORE INFO -->
       <div class="row">
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail hide_element" id="hg_more">
+            <div class="caption">
+              <p class="lead">HUTGRIP</p>
+          We found that HutGrip creates great
+    value to equipment manufacturers, by
+    providing them with more meaningful data,
+    alarms, reporting and data analytics
+    capabilities.
+          <ul><li><a href="http://www.thegigtank.com/">GigTank</a> May-July 2013 - HutGrip was
+    part of The GigTank accelerator program
+    focussed on Smart Grid applications.</li>
+          <li><a href="http://launchtn.org/">Launch Tennessee</a> - After a
+    statewide competition in August 2013, we
+    became one of ten teams to get a $10,000
+    grant and join the LaunchTN Tenn program
+    for high-growth potential companies.</li>
+          <li>We became <a href="http://www.gew.co/ring">Get In the Ring</a> finalist with HutGrip in 2013 - 
+    a competition organized by the Erasmus
+    Centre for Entrepreneurship, Global
+    Entrepreneurship Week </li>
+          <li>We worked on a white paper about creating <a href="http://hutgrip.com/wp-content/uploads/2014/04/HutGrip-Whitepaper.pdf">Software Intensive products in the industry</a></li>
+    </ul>
+          <p>As one of two co-founders, my role
+    combined both technical and
+    business/customer development
+    responsibilities.
+    <a style="float:right;" role="button" id="hg_less"><i> << hide</i></a></p>
+          </div></div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail hide_element" id="hg_more_lastone">
+            <img src="img/popcorn.jpg" alt="Microworking from a mobile device">
+            <div class="caption">
+              <h3>Nanopops</h3>
+              <p>Nanopops/Popcorn was a project about microworking from a mobile device. It was our team project work at Singularity University in 2012
+    <a style="float:right;" role="button" id="nanopops_btn"><i> show more >></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HACKIDEMIA MORE INFO -->
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail hide_element" id="hackidemia_more_lastone">
+            <img  src="img/hg-dashboard-screenshot.png" alt="HutGrip Dashboard">
+            <div class="caption">
+              <h3>HutGrip</h3>
+              <p>Software as a Service that aims to
+increase efficiency in manufacturing
+production processes through
+monitoring of critical parameters and
+applying ML agorithms to forecast
+potential failures.
+    <a style="float:right;" role="button" class="hutgrip_btn"><i> show more >></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail hide_element" id="hackidemia_more">
+            <div class="caption">
+              <p class="lead">HACKIDEMIA</p>
+      <p> <a href="http://www.hackidemia.com/">Hackidemia</a> is a global network that
+designs workshops and kits enabling kids
+to use curiosity, play, and empathy to
+solve global challenges. I have developed content for electronics
+workshops involving Arduino, Raspberry
+Pi, sensors, displays and others. I have
+a great team of more than 20 volunteers
+in Bulgaria to help me keep the initiative
+alive and organize regular events.</p>
+              <p> Some of the workshops include activitines that teach:
+                <ul>
+                  <li>Basic Machine Learning concepts through training and testing an image recognition model together with the children.</li>
+                  <li>Building games in Virtual Reality using the Unity framework and Gear VR</li>
+                  <li>Basic ellectoncis concepts exploration by using paper stickers, sensors and microcontrollers and programming them into an interactive circuit using Arduino.</li>
+                  <li>Building a meteorological station to monitor air quality, temperature, humidity and other parameters.
+                  <a style="float:right;" role="button" id="hackidemia_less"><i> << hide</i></a></li>
+                </ul>
+    </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- NANOPOPS MORE INFO -->
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail hide_element" id="nanopops_more_lastone">
+            <img  src="img/hg-dashboard-screenshot.png" alt="HutGrip Dashboard">
+            <div class="caption">
+              <h3>HutGrip</h3>
+              <p>Software as a Service that aims to
+increase efficiency in manufacturing
+production processes through
+monitoring of critical parameters and
+applying ML agorithms to forecast
+potential failures.
+    <a style="float:right;" role="button" class="hutgrip_btn"><i> show more >></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail hide_element" id="nanopops_more">
+            <div class="caption">
+              <p class="lead">NANOPOPS</p>
+      <p>Nanopops was a mobile application platform allowing people to do very small tasks, called microtasks, which bring them some extra money. On the other hand companies can publish bigger projects into the platform. An AI system will split them into microtasks and verify the results from people’s work by using different Machine Learning techniques.</p>
+
+<p>The project was our team project after the <a href="http://singularityu.org/graduate-studies-program/">Graduate Studies program at Singularity University in 2012</a>.</p>
+
+<p>My personal project which brought me to the finals of the Singularity <a href="http://www.sucee.eu/">Global Impact competition for Central and Eastern Europe in 2012</a> was in the health-related space called <a href="https://en.wikipedia.org/wiki/Nutrigenomics">Nutrigenomics</a>. It was an application which allows you to map the nutrients in the food you consume against a personal health profile created from genome data available by services like 23andMe. Then it would give you a future version of yourself assuming that you keep consuming that specific food. 
+    <a style="float:right;" role="button" id="nanopops_less"><i> << hide</i></a></p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row" id="row_1">
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
             <img  src="img/hg-dashboard-screenshot.png" alt="HutGrip Dashboard">
             <div class="caption">
               <h3>HutGrip</h3>
-              <p>HutGrip is a SaaS platform, that aims to
+              <p>Software as a Service that aims to
 increase efficiency in manufacturing
 production processes through
 monitoring of critical parameters and
 applying ML agorithms to forecast
-potential failures.</p>
-              <!--<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
+potential failures.
+    <a style="float:right;" role="button" class="hutgrip_btn"><i> show more >></i></a></p>
             </div>
           </div>
         </div>
@@ -66,10 +188,11 @@ potential failures.</p>
             <img src="img/hack.jpg" alt="Hackidemia Workshop on building a weather station">
             <div class="caption">
               <h3>Hackidemia</h3>
-              <p>Hackidemia is a global network that
+              <p>A global network that
 designs workshops and kits enabling kids
-to use curiosity, play, and empathy to
-solve global challenges. </p>
+to use curiosity, play and empathy to
+solve global challenges while learning new skills. 
+    <a style="float:right;" role="button" class="hackidemia_btn"><i> show more >></i></a></p>
             </div>
           </div>
         </div>
@@ -78,20 +201,21 @@ solve global challenges. </p>
           <div class="thumbnail">
             <img src="img/popcorn.jpg" alt="Microworking from a mobile device">
             <div class="caption">
-              <h3>Nanopops</h3>
-              <p>Nanopops/Popcorn was a project about microworking from a mobile device. It was our team project work at Singularity University in 2012</p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+              <h3>Healthcare and Microworking</h3>
+              <p>Nanopops/Popcorn was a project about microworking from a mobile device. It was our team project work at Singularity University in 2012
+    <a style="float:right;" role="button" class="nanopops_btn"><i> show more >></i></a></p>
             </div>
           </div>
         </div>
-      
-
+    </div>
+    <div class="row" id="row_2">
       <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
             <img src="img/visualdesigner.jpg" alt="A software interface to program microcontrollers">
             <div class="caption">
               <h3>AGILART</h3>
-              <p>A web-based Visual Designer that allows people with no technical background to program microcontrollers or other compatible hardware.</p>
+              <p>A web-based Visual Designer that allows people with no technical background to program microcontrollers or other compatible hardware.
+    <a style="float:right;" role="button" class="agilart_btn"><i> show more >></i></a></p>
             </div>
           </div>
         </div>
@@ -102,7 +226,8 @@ solve global challenges. </p>
             <img src="img/iot_workshops.jpg" alt="Internet Of Things workshops">
             <div class="caption">
               <h3>IoT Workshops</h3>
-              <p>Organizing Computer Science workshops in mobile, web and embedded development with the very diverse and unique Graduate Studies class at Singularity University in 2014</p>
+              <p>Organizing Computer Science workshops in mobile, web and embedded development with the very diverse and unique Graduate Studies class at Singularity University in 2014
+    <a style="float:right;" role="button" class="iot_btn"><i> show more >></i></a></p>
             </div>
           </div>
       </div>
@@ -118,101 +243,117 @@ importance of recycling. It was an
 interactive virtual environment where
 children can group into teams and go
 through challenges while recycling rubbish
-correctly.</p>
+correctly.
+    <a style="float:right;" role="button" class="greenworld_btn"><i> show more >></i></a></p>
             </div>
           </div>
       </div>
       
       </div>
 
-      <!-- <p class="lead">HUTGRIP</p>
-      <p>HutGrip is a SaaS platform, that aims to
-increase efficiency in manufacturing
-production processes through
-monitoring of critical parameters and
-applying ML agorithms to forecast
-potential failures.</p>
-      <p> We found that HutGrip creates great
-value to equipment manufacturers, by
-providing them with more meaningful data,
-alarms, reporting and data analytics
-capabilities.</p>
-      <p>GigTank May-July 2013 - HutGrip was
-part of The GigTank accelerator program
-focussed on Smart Grid applications.</p>
-      <p>Launch Tennessee TENN - After a
-statewide competition in August 2013, we
-became one of ten teams to get a $10,000
-grant and join the LaunchTN Tenn program
-for high-growth potential companies.</p>
-      <p>We became Get In the Ring finalist with HutGrip in 2013 - 
-a competition organized by the Erasmus
-Centre for Entrepreneurship, Global
-Entrepreneurship Week </p>
-      <p>As one of two co-founders, my role
-combined both technical and
-business/customer development
-responsibilities.</p>
-      <p> My responsibilities have included setting
-up the platform, the infrastructure which
-is build on top of Amazon Web Services,
-web development, interactive data
-visualization utilizing different
-frameworks and javascript libraries.
-Customer Development - I have made
-extensive research into what are the real
-world problems on the floor of multiple
-manufacturing facilities. Together with
-the team, I have done work in the
-following industries: Induction Heating,
-Food Production, Textiles, Printing and
-Packaging.</p>
+<!-- AGILART MORE INFO -->
+      <div class="row">
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail hide_element" id="agilart_more">
+            <div class="caption">
+              <p class="lead">AGILART</p>
+      <p>Agilart was an online tool designed to make it easier to control devices connected to a microcontroller. The Agilart C++ runtime runs on an ARM-based microcontroller and would connect to the online visual designer tool. From the visual designer you create the block diagram of the desired program. Each block corresponds to an individual device such as a smart zigbee light switch, a cooling system water pump, a valve, etc. The devices have individual drivers in the low level embedded runtime. Also a number of pinouts which are used to connect them together.</p>
 
-      <p class="lead">HACKIDEMIA</p>
-      <p> Hackidemia is a global network that
-designs workshops and kits enabling kids
-to use curiosity, play, and empathy to
-solve global challenges. I have developed content for electronics
-workshops involving Arduino, Raspberry
-Pi, sensors, displays and others. I have
-a great team of more than 20 volunteers
-in Bulgaria to help me keep the initiative
-alive and organize regular events.</p>
-
-  <p class="lead">GRABOO</p>
-  <p> Graboo was an application in the field of
-Personalized Healthcare. Help people with
-allergies and diabeties avoid taking in
-substances that are hidden behind hard to
-understand chemistry elements and are
-not good for their health. My project was a mobile application to
-scan barcodes on food products and then
-diagnose and validate if the product you
-corresponds tothe user’s health profile.
-The prototype included Windows Phone
-mobile application and Web server built
-on top of the Microsoft technology stack
-including ASP MVC and WCF REST Servie
-in the Cloud.</p>
-
-  <p class="lead">GREEN WORLD</p>
-  <p> Green World is an online multiplayer game,
+<p>The devices can also be software-defined widgets which are just buttons on a web site or timers, switches, logical operators, etc. Here is an example program:
+  <img src="img/program.jpg">
+    <a style="float:right;" role="button" id="agilart_less"><i> << hide</i></a></p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail hide_element" id="agilart_more_lastone">
+            <img src="img/green_world_3.jpg" alt="Online multiplayer game">
+            <div class="caption">
+              <h3>Green World</h3>
+              <p>An online multiplayer game,
 to help children and grown ups learn the
 importance of recycling. It was an
 interactive virtual environment where
 children can group into teams and go
 through challenges while recycling rubbish
-correctly. I was responsible for the whole backend
+correctly.
+    <a style="float:right;" role="button" class="greenworld_btn"><i> show more >></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- IOT MORE INFO -->
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail hide_element" id="iot_more_lastone">
+            <img src="img/visualdesigner.jpg" alt="A software interface to program microcontrollers">
+            <div class="caption">
+              <h3>AGILART</h3>
+              <p>A web-based Visual Designer that allows people with no technical background to program microcontrollers or other compatible hardware.
+    <a style="float:right;" role="button" class="agilart_btn"><i> show more >></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail hide_element" id="iot_more">
+            <div class="caption">
+              <p class="lead">IOT WORKSHOPS</p>
+      <p>I was very happy to be part of the Faculty team during the Singularity University Graduate Studies Program in 2014 as the teaching fellow for the Computer Systems and Networks track. I organized weekly workshops including:</p>
+<ul>
+<li>Sensors, Arduino, Raspberry Pi Deep Dive</li>
+<li>Mobile and embedded development tools</li>
+<li>Building Scalable Cloud Systems</li>
+<li>Machine Learning Tools
+    <a style="float:right;" role="button" id="iot_less"><i> << hide</i></a></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- GREEN WORLD MORE INFO -->
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail hide_element" id="greenworld_more_lastone">
+            <img src="img/visualdesigner.jpg" alt="A software interface to program microcontrollers">
+            <div class="caption">
+              <h3>AGILART</h3>
+              <p>A web-based Visual Designer that allows people with no technical background to program microcontrollers or other compatible hardware.
+    <a style="float:right;" role="button" class="agilart_btn"><i> show more >></i></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail hide_element" id="greenworld_more">
+            <div class="caption">
+              <p class="lead">GREEN WORLD</p>
+      <p>Green World is an online multiplayer game,
+to help children and grown ups learn the
+importance of recycling. It was an
+interactive virtual environment where
+children can for teams and go
+through challenges while recycling rubbish
+correctly. The players couls also take individual and team quests like:</p>
+<ul>
+<li>building different objects in the virtual world, such as wind mills and solar installations based to game points</li>
+<li>complete educational quizes</li>
+<li>make friends with other players they meet in the online world though a messaging system</li>
+</ul>
+<p>
+I was responsible for the whole backend
 infrastructure for a multiplayer
 environment, built on top of the Microsoft
 technology stack and utilizing Windows
 Communication Foundation. I was also
 responsible for the front-end built using
 Silverlight. </p>
-
-  <p class="lead">AGILART</p>
-  <p> Agilart is a platform that allows people with no technical background to program microcontrollers or other compatible hardware through a simple Web-based Visual Designer.</p>
- -->
+<p>The game was part of the global finals of the <a href="https://www.imaginecup.com/">Microsoft Imagine Cup competition in New York, 2011</a>.<a style="float:right;" role="button" id="greenworld_less"><i> << hide</i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
 
     <footer class="footer">

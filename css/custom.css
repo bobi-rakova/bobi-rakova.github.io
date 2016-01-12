@@ -9,6 +9,17 @@ body {
   margin-bottom: 60px;
   font-family: 'Roboto', sans-serif;
 }
+
+
+.poem {
+  line-height: initial;
+  font-family: 'Bad Script', cursive;
+}
+
+.blog-post {
+  font-style: italic;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -44,4 +55,17 @@ body {
 
 .cl {
   clear: left;
+}
+
+.gray {
+  color: #CCCCCC;
+}
+
+.hide_element {
+  display: none;
+}
+
+.thumbnail {
+    border-radius: 0px;
+    border: 0px;
 }

@@ -1,0 +1,545 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"test",
+				"testsFolder"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"con",
+				"Confidence"
+			],
+			[
+				"byte",
+				"byteResponse"
+			],
+			[
+				"bytes",
+				"bytesSend"
+			],
+			[
+				"siz",
+				"sizeOfIncomingMsg"
+			],
+			[
+				"messa",
+				"message_pb2"
+			],
+			[
+				"devic",
+				"device_name"
+			],
+			[
+				"else",
+				"elseif	elseif"
+			],
+			[
+				"cD",
+				"cDataBufferPtr"
+			],
+			[
+				"result",
+				"resultr"
+			],
+			[
+				"resul",
+				"resulti"
+			],
+			[
+				"DBG",
+				"DBG_PC"
+			],
+			[
+				"TCP",
+				"TCP_MODE"
+			],
+			[
+				"send",
+				"sendPSDDump"
+			],
+			[
+				"over",
+				"overallTime"
+			],
+			[
+				"head",
+				"header_buf"
+			],
+			[
+				"if",
+				"ifdef"
+			],
+			[
+				"SERIA",
+				"SERIAL_MODE"
+			],
+			[
+				"EMI",
+				"EMITTER"
+			],
+			[
+				"POINT",
+				"BINARY_POINTS_TO_DUMP"
+			],
+			[
+				"time",
+				"timedump"
+			],
+			[
+				"DUMP",
+				"DUMP_TIME_TO_SERIAL"
+			],
+			[
+				"binar",
+				"binarydump"
+			],
+			[
+				"SER",
+				"DUMP_BINARY_TO_SERIAL"
+			],
+			[
+				"adc",
+				"adcdata"
+			],
+			[
+				"body",
+				"bodyDataRX"
+			],
+			[
+				"in",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/custom.css",
+			"settings":
+			{
+				"buffer_size": 783,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/b.rakova/projects/bobi/cimbika.github.io/custom.css",
+			"settings":
+			{
+				"buffer_size": 1215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects.html",
+			"settings":
+			{
+				"buffer_size": 15151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1749,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 95.0,
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/b.rakova/projects/bobi/cimbika.github.io/js/app.js",
+		"/Users/b.rakova/projects/bobi/cimbika.github.io/gallery.html",
+		"/Users/b.rakova/projects/bobi/cimbika.github.io/index.html",
+		"/Users/b.rakova/projects/bobi/cimbika.github.io/custom.css",
+		"/Users/b.rakova/ContextPlus/python_server/util/lda_separateTestSet.py",
+		"/Users/b.rakova/ContextPlus/python_server/.gitignore",
+		"/Users/b.rakova/ContextPlus/python_server/protobuf/message_pb2.py",
+		"/Users/b.rakova/ContextPlus/python_server/util/classify.py",
+		"/Users/b.rakova/ContextPlus/python_server/util/store.py",
+		"/Users/b.rakova/ContextPlus/python_server/util/lda.py",
+		"/Users/b.rakova/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/b.rakova/ContextPlus/python_test/web_app/app.js",
+		"/Users/b.rakova/.zshrc",
+		"/Users/b.rakova/Downloads/solarized 2/README.md",
+		"/Users/b.rakova/Downloads/solarized 2/osx-terminal.app-colors-solarized/README.md",
+		"/Users/b.rakova/.bash_profile",
+		"/Users/b.rakova/.profile",
+		"/Users/b.rakova/Downloads/TorBrowser-4.5.3-osx64_en-US.dmg.asc",
+		"/usr/local/Library/Taps/homebrew/homebrew-science/opencv.rb",
+		"/Users/b.rakova/Library/Logs/Homebrew/opencv/02.make",
+		"/Users/b.rakova/.ssh/id_rsa.pub",
+		"/Users/b.rakova/.ssh/id_rsa",
+		"/Users/b.rakova/ContextPlus/DeviceSnapshots/app/src/main/res/raw/LDA_decision_boundaries.txt",
+		"/Users/b.rakova/ContextPlus/ml-context-plus/svm_tester.m",
+		"/Users/b.rakova/projects/c+/CafeMerged_NewHW/dbg.h",
+		"/Users/b.rakova/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/b.rakova/ContextPlus/ml-context-plus/svm_data.m",
+		"/Users/b.rakova/ContextPlus/ml-context-plus/run_svm_live.m",
+		"/Users/b.rakova/ContextPlus/ml-context-plus/run_heuristic_live.m",
+		"/Users/b.rakova/ContextPlus/context.git.2/heuristic_norm.m",
+		"/Volumes/projects/BETTER/HFTS/code/software/Prototype 2/comms/main.m",
+		"/Users/b.rakova/ContextPlus/context.git.2/svm_data.m",
+		"/Users/b.rakova/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/util.h",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/main.cpp",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/states/EMIState.cpp",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/txcodes.h",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/util.cpp",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/states/bodyDataRX.cpp",
+		"/Users/b.rakova/LPCXpresso/workspace/CafeMerged/states/bodyDataTX.cpp",
+		"/Users/b.rakova/ContextPlus/CafeEMI_TCP/XBee_conf.h",
+		"/Users/b.rakova/LPCXpresso/workspace/SerialFirmware/main.cpp",
+		"/Users/b.rakova/LPCXpresso/workspace/SerialFirmware/util.h",
+		"/Users/b.rakova/ContextPlus/gccMockup/bodyDataRX.h",
+		"/Users/b.rakova/ContextPlus/gccMockup/bodyDataTX.h",
+		"/Users/b.rakova/ContextPlus/gccMockup/bodyDataRX.cpp",
+		"/Users/b.rakova/ContextPlus/gccMockup/util.c",
+		"/Users/b.rakova/ContextPlus/gccMockup/util.h",
+		"/Users/b.rakova/ContextPlus/gccMockup/bodyDataTX.cpp",
+		"/Users/b.rakova/ContextPlus/gccMockup/main.c",
+		"/Users/b.rakova/ContextPlus/gccMockup/bodyDataRX.c",
+		"/Users/b.rakova/ContextPlus/gccMockup/EMIState.h",
+		"/Users/b.rakova/ContextPlus/gccMockup/EMIState.cpp",
+		"/Users/b.rakova/ContextPlus/gccMockup/main.cpp"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/b.rakova/ContextPlus/ml-context-plus",
+			"",
+			"main.cpp",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			">></",
+			"split",
+			"extend",
+			"stringData",
+			"freqBin",
+			"class",
+			"-z",
+			"-lz",
+			"LDLIB",
+			"SYSROOT",
+			"new_estimators",
+			"error",
+			"runtest",
+			"USE_GOERTZEL_ALG",
+			"DDS",
+			"bytes_rx",
+			"bytes_rx = ",
+			"packet_size",
+			"sendNow",
+			"DUMP_PSD_TO_TCP",
+			"sendnow",
+			"DEST_IP",
+			"format",
+			"svm_args",
+			"stat_normcdf",
+			"figure",
+			"countdown",
+			"current_test",
+			"timer",
+			"LED_2",
+			"#define TCP_MODE",
+			"#define SERIAL_MODE",
+			"init_spi",
+			"enable_wifi",
+			"bytesToSend",
+			"readpacket()",
+			"RxDataResponse",
+			"RecieveData",
+			"_frameDataPtr",
+			"getFrameData(",
+			"getResponse()",
+			"IPv4TransmitRequest",
+			"data",
+			"readPacketUntilAvailable",
+			"XBeeResponse",
+			"header_buf",
+			"send(",
+			"// ",
+			"BINARY_POINTS_TO_DUMP",
+			"window",
+			"n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1377,
+								1377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/custom.css",
+					"settings":
+					{
+						"buffer_size": 783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 247.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/b.rakova/projects/bobi/cimbika.github.io/custom.css",
+					"settings":
+					{
+						"buffer_size": 1215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1212,
+								1175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 733.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "projects.html",
+					"settings":
+					{
+						"buffer_size": 15151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7754,
+								7754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3573.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 1749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1422,
+								1422
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 28.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"util.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": false
+}
