@@ -24,6 +24,10 @@ body {
   font-style: italic;
 }
 
+.caption p {
+  font-style: italic;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
