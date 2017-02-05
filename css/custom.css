@@ -8,12 +8,23 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
+.accent-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.accent-big {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+}
 
 .poem {
   line-height: initial;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Sahitya', serif;
 }
 
 .blog-post {
