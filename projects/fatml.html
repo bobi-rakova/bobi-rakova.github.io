@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Bobi Rakova">
+    <meta name="author" content="Bobi Rakova">
+
+    <title>Bobi Rakova</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,300italic' rel='stylesheet' type='text/css'>
+    <link href="../css/custom.css" rel="stylesheet">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1><a class="gray" href="../index.html">home</a> <span class="gray">/</span> projects <span class="gray">/</span></h1>
+
+      </div>
+      <div class="row">
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-10">
+                <div class="project">
+                    <!-- Title -->
+                    <h1>FAIR AI</h1>
+                   <div class="caption">
+                      <p><b>You’re Not Stuck In Traffic You Are Traffic</b>, <br />
+                      Source:  <a href="https://www.pubpub.org/pub/design-as-participation">The Journal of Design and Science</a>, a collaboration between the Media Lab and MIT Press to try to bring design to science and science to design, to create a new kind of design for complex system self-adaptive systems and to bring this design to science.     </p>
+                      <p>Similarly, I think,</p>
+                      <h2>You’re not only a consumer of an AI system, you are part of it and in this way defining the way it operates.</h2>
+                      <p>I am excited to be part of a growing community of researchers and practitioners concerned with fairness, accountability, and transparency in Machine Learning. Therefore I want to share links to some of the recources that have shaped my view of the field and ideas on new projects.</p>
+
+                      <h2>Project Idea and current status</h2>
+                      <b>Using Generative ML algorithms to model data that we haven't measured</b>
+                      <p>Goal #1: focus either on using Generative Neural Network or a Variational Autoencoder.
+                        Currently exploring the possibility of using GANs to better model the mapping between a contruct and observed data space.
+                        The work is inspired by some of the research done on evaluating fairness based on mappings between data spaces and distances between the initial datapoints and the outputs of a classifier system: <a href="https://arxiv.org/abs/1609.07236">On the (im)possibility of fairness</a>
+                      </p><p>
+                      In Semi-supervised learning scenarios the data produced by a trained GAN generator network gets used as training data for a new classifier. Consider that we can condition the latent variables on the input of the GAN on a single or multiple protected parameters.
+                      Then the generated GAN output will belong to a specific subcluster inside the original real world data distribution.
+                      In this work we will focus on using these subclusters to create a metric for fairness of the target classifier and potentially feed that into a loss function to adjust the model parameters during training.</p>
+
+                      <h2>Recources</h2>
+                      <p><b><a href="http://www.fatml.org/">FAT/ML</a></b>, a growing community of practitioners focussing on Fairness, Accountability and Transparency in ML</p>
+                      <p><b><a href="https://artificialintelligencenow.com/">AI NOW</a></b>, researching the social impacts of artificial intelligence now to ensure a more equitable future</p>
+                      <p><b><a href="https://docs.google.com/document/d/1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o/edit">Solon Barocas's class on Ethics and Policy in Data Science at Cornell</a></b>, all course materials are available online and it is an amazing compilation of resources in the field.</p>
+                      <p><b>
+                         <a href="https://weaponsofmathdestructionbook.com/">Weapons of Math Destruction</a></b> by Cathy O’Neil</p>
+                      <p><b><a href="https://mitpress.mit.edu/books/raw-data-oxymoron">Raw Data Is an Oxymoron"</a>, a combination of essays from some of the top researchers in the field</p>
+                      <p><b><a href="https://cyber.harvard.edu/research/ai#">The Ethics and Governance of Artificial Intelligence initiative</a></b>, a collaboration between the Berkman Klein Center and MIT Media Lab</p>
+                      <p>The projects at <a href="https://medium.com/berkman-klein-center/ai-advance-may-15-2017-2c36ee9d8dc8">AI Advance</a>, a Community Convening at Harvard Law School to advance the Ethics and Governance of Artificial Intelligence Initiative</p>
+                      <p><a href="https://www.media.mit.edu/publications/governing-human-and-machine-behavior-in-an-experimenting-society/"> J.N. Matias Thesis at MIT: Governing Human and Machine Behavior in an Experimenting Society</a></p>
+                  <br />
+                    <a style="float:right;" role="button" href="../projects.html"><i> << back</i></a>
+
+
+            </div>
+                </div>
+            </div>
+      </div>
+    </div>
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="text-muted">
+          <a href="../index.html">home</a> // <a href="../projects.html">projects</a> // <a href="../work.html">research field</a> // <a href="../waves.html">waves</a> //
+          <div style="float: right;">Elsewhere: <a href="http://www.linkedin.com/in/bogdanarakova">linkedin</a> // <a href="https://github.com/bobi-rakova">github</a> // <a href="https://twitter.com/bobirakova">@bobirakova</a></div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
