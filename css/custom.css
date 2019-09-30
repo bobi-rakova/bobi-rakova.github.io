@@ -12,14 +12,13 @@ body {
 }
 
 .accent-regular {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 350;
 }
 
 .accent-big {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .poem {
