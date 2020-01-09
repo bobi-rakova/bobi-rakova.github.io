@@ -157,3 +157,7 @@ body {
 .single-portfolio:hover a::after {
   transform: scale(1);
 }
+
+.gallery-item {
+  margin: 2px;
+}
