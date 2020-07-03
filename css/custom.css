@@ -5,11 +5,29 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
+  /* Margin bottom by footer height color: #b7bf76; */
   margin-bottom: 60px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
   font-weight: 500;
 }
+
+@font-face {
+  font-family: "Monoton-Regular";
+  src: url("../fonts/Monoton-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Notable-Regular";
+  src: url("../fonts/Notable-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+.accent-font { font-family: "Monoton-Regular", sans-serif }
+.semi-accent-font { font-family: "Notable-Regular", sans-serif }
 
 .accent-regular {
   font-family: 'Open Sans', sans-serif;
@@ -20,6 +38,72 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
 }
+
+.accent-small {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.extra-border {
+  border-left: 5px solid #ef476f;
+}
+
+.extra-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  padding: 2px;
+}
+
+.paper {
+  font-family: 'Roboto-Regular', sans-serif;
+  /* font-size: 20px; */
+  background-color: #ef476f;
+  color: #FFFFFF;
+  padding: 3px;
+  background-clip: padding-box;
+}
+
+.paper-1 {
+  font-family: 'Roboto-Regular', sans-serif;
+  /* font-size: 20px; */
+  background-color: #ffd166;
+  color: #000000;
+  padding: 3px;
+  background-clip: padding-box;
+}
+
+.paper-2 {
+  font-family: 'Roboto-Regular', sans-serif;
+  /* font-size: 20px; */
+  background-color: #06d6a0;
+  color: #FFFFFF;
+  padding: 3px;
+  background-clip: padding-box;
+}
+
+.paper-3 {
+  font-family: 'Roboto-Regular', sans-serif;
+  /* font-size: 20px; */
+  background-color: #118ab2;
+  color: #FFFFFF;
+  padding: 3px;
+  background-clip: padding-box;
+}
+
+.paper-4 {
+  font-family: 'Roboto-Regular', sans-serif;
+  /* font-size: 20px; */
+  background-color: #073b4c;
+  color: #FFFFFF;
+  padding: 3px;
+  background-clip: padding-box;
+}
+
 
 .poem {
   line-height: initial;
