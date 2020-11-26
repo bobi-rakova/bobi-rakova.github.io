@@ -68,8 +68,10 @@ body {
 }
 
 ul li {
-  padding: 2px;
+  padding: 5px;
 }
+
+
 
 .paper {
   font-family: 'Roboto-Regular', sans-serif;
@@ -145,10 +147,12 @@ ul li {
 
 .pic {
   border-radius: 8px;
-  height: 40%;
+  height: 100%;
   left: 0;
   top: 0;
-  width: 40%;
+  width: 100%;
+  max-width:150px;
+  max-height:150px;
 }
 
 @media (min-width:1025px) { .container { width: 70% !important;} }
