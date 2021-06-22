@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
 }
 
-#hero .btn-about {
+.btn-about {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #47894b;
 }
 
-#hero .btn-about:hover {
+.btn-about:hover {
   background: #5ea758;
 }
 
