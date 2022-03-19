@@ -768,6 +768,15 @@ section {
   color: #47894b;
 }
 
+.yellow_highlight {
+  background: #FFFF00;
+}
+
+.yellow_highlight_padding {
+  background: #FFFF00;
+  padding: 5px 15px;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
