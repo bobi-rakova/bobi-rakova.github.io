@@ -768,6 +768,17 @@ section {
   color: #47894b;
 }
 
+.highlight {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #effbf9;
+  padding: 5px 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #47894b;
+}
+
 .yellow_highlight {
   background: #FFFF00;
 }
